@@ -18,8 +18,8 @@ Online ordering and reservations are not on this domain. Both live at https://on
 
 ## Ordering and booking
 
-- [Order Online](https://www.thelionliverpool.co.uk/order-online/): Takeaway and delivery ordering, handled at online.thelionliverpool.co.uk.
-- [Reservation](https://www.thelionliverpool.co.uk/reservation/): Table booking, handled at online.thelionliverpool.co.uk/book.
+- [Order Online](https://online.thelionliverpool.co.uk/): Takeaway and delivery ordering.
+- [Book a Table](https://online.thelionliverpool.co.uk/book): Table reservations.
 
 ## Blog
 
