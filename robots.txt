@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# CSS, JS and images must stay crawlable so pages render correctly in search.
+
+Sitemap: https://www.thelionliverpool.co.uk/sitemap.xml

@@ -1,0 +1,40 @@
+# The Lion Restaurant Liverpool
+
+> A Sri Lankan and Japanese restaurant in Liverpool, UK. The site covers the food (three menus with prices), the story behind the restaurant, and a blog about both cuisines. Ordering and table booking are handled on a separate site.
+
+Online ordering and reservations are not on this domain. Both live at https://online.thelionliverpool.co.uk - ordering at the root, booking at /book.
+
+## Menus
+
+- [Menus](https://www.thelionliverpool.co.uk/menu/): Full Sri Lankan and Japanese menu with prices - starters, mains, rice and noodle dishes.
+- [Drinks Menu](https://www.thelionliverpool.co.uk/drinks-menu/): Cocktails, mocktails, beers, wines, spirits, soft drinks and hot drinks with prices.
+- [Sushi Menu](https://www.thelionliverpool.co.uk/sushi-menu/): Sushi rolls, nigiri and sashimi with prices.
+
+## The restaurant
+
+- [The Lion Liverpool – Sri Lankan & Japanese Restaurant](https://www.thelionliverpool.co.uk/): Sri Lankan and Japanese restaurant in the heart of Liverpool.
+- [About Us](https://www.thelionliverpool.co.uk/about-us/): The story behind the restaurant and its fusion of Sri Lankan and Japanese cooking.
+- [Contact Us](https://www.thelionliverpool.co.uk/contact-us/): Address, phone, opening hours and location for the Liverpool restaurant.
+
+## Ordering and booking
+
+- [Order Online](https://www.thelionliverpool.co.uk/order-online/): Takeaway and delivery ordering, handled at online.thelionliverpool.co.uk.
+- [Reservation](https://www.thelionliverpool.co.uk/reservation/): Table booking, handled at online.thelionliverpool.co.uk/book.
+
+## Blog
+
+- [Blog](https://www.thelionliverpool.co.uk/blog/): Articles on Japanese and Sri Lankan food, ingredients and dining.
+- [A Tour of Japanese Fermented Foods at Our UK Japanese Restaurant](https://www.thelionliverpool.co.uk/a-tour-of-japanese-fermented-foods-at-our-uk-japanese-restaurant/): Miso, soy, mirin and other fermented staples, and why they shape Japanese flavour.
+- [Celebrating Cultural Diversity Through Food | Lion Restaurant Liverpool](https://www.thelionliverpool.co.uk/celebrating-cultural-diversity-through-food-lion-restaurant-liverpool/): How one kitchen brings Japanese and Sri Lankan cooking together.
+- [Discover Delicious Sushies in Liverpool](https://www.thelionliverpool.co.uk/discover-delicious-sushies/): Traditional sushi-making techniques and what to order.
+- [Discover the Best Japanese Dishes You Must Try in the UK](https://www.thelionliverpool.co.uk/discover-the-best-japanese-dishes-you-must-try-in-the-uk/): A starting point for anyone new to Japanese cuisine.
+- [From Sushi to Kottu Roti: Our Diverse Menu at The Lion Liverpool](https://www.thelionliverpool.co.uk/from-sushi-to-kottu-roti-our-diverse-menu-at-the-lion-liverpool/): A tour across the menu, from sushi through to Sri Lankan kottu roti.
+- [How Japanese Foods Affect Health](https://www.thelionliverpool.co.uk/how-japanese-foods-affect-health/): How Japanese eating patterns relate to chronic disease risk and longevity.
+- [How We Create a Memorable Dining Experience at The Lion](https://www.thelionliverpool.co.uk/how-we-create-a-memorable-dining-experience-at-the-lion/): Service, atmosphere and the details behind a night out.
+- [Japanese Food Culture in the UK](https://www.thelionliverpool.co.uk/japanese-food-culture-in-the-uk/): Traditions, seasonality and the growing popularity of Japanese food in Britain.
+- [The Health Benefits of Japanese and Sri Lankan Cuisine | The Lion](https://www.thelionliverpool.co.uk/the-health-benefits-of-japanese-and-sri-lankan-cuisine-the-lion/): Nutritional strengths of both cuisines and how they complement each other.
+
+## Optional
+
+- [Terms and conditions](https://www.thelionliverpool.co.uk/terms-and-conditions/): Terms and conditions for the restaurant and its online services.
+- [Blog archive](https://www.thelionliverpool.co.uk/category/uncategorized/): Blog category archive.
