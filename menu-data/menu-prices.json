@@ -1,0 +1,1811 @@
+{
+  "_readme": [
+    "Single source of truth for every price shown on the menu pages.",
+    "Edit the 'price' values here, then run:  python menu-data/sync-prices.py",
+    "That writes the prices into the HTML pages. Never hand-edit prices in the HTML.",
+    "'locations' records where each price is rendered - do not change widget ids.",
+    "An item with more than one location appears on several pages and stays in sync."
+  ],
+  "currency": "GBP",
+  "sections": [
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "name": "Fish Cutlets (3pcs)",
+          "price": 5.5,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "2f2ad6e2"
+            }
+          ]
+        },
+        {
+          "name": "Mutton/ Chicken Rolls (2 pcs)",
+          "price": 6.5,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "30188394"
+            }
+          ]
+        },
+        {
+          "name": "Samosa -vegetable(v) meat (2pcs)",
+          "price": 5.5,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "78a1f0f5"
+            }
+          ]
+        },
+        {
+          "name": "Coconut Roti(vg) (2pcs)",
+          "price": 6,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "48877ca9"
+            }
+          ]
+        },
+        {
+          "name": "Chilli Chicken Lolipop",
+          "price": 9.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "e2c2ca3"
+            }
+          ]
+        },
+        {
+          "name": "100. Edamame(vg)",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "f08e44b"
+            }
+          ]
+        },
+        {
+          "name": ". Seafood Korokke",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "8776c90"
+            }
+          ]
+        },
+        {
+          "name": "EBI karaage",
+          "price": 9.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "a9ba059"
+            }
+          ]
+        },
+        {
+          "name": "Steak Skewers",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "4563664"
+            }
+          ]
+        },
+        {
+          "name": "Miso Shiru",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "62c00be"
+            }
+          ]
+        },
+        {
+          "name": "Yakitori",
+          "price": 9.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "f560c3a"
+            }
+          ]
+        },
+        {
+          "name": "Tori Karaage",
+          "price": 9.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "b81a37f"
+            }
+          ]
+        },
+        {
+          "name": "Age Dashi Tofu",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "8b85076"
+            }
+          ]
+        },
+        {
+          "name": "Mini Vegetable Spring Rolls (vg)",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "01b0ab2"
+            }
+          ]
+        },
+        {
+          "name": "Chicken Wings",
+          "price": 9.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "917bd72"
+            }
+          ]
+        },
+        {
+          "name": "Gyoza(5PCS)",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "39e85c2"
+            }
+          ]
+        },
+        {
+          "name": "Beef teriyaki",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "9a844de"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fried Rice",
+      "items": [
+        {
+          "name": "Lion’s Special",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "index.html",
+              "widget": "a9c6f57"
+            },
+            {
+              "page": "menu/index.html",
+              "widget": "56080528"
+            }
+          ]
+        },
+        {
+          "name": "Seafood Fried Rice",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "index.html",
+              "widget": "743f776"
+            },
+            {
+              "page": "menu/index.html",
+              "widget": "69c32ab"
+            }
+          ]
+        },
+        {
+          "name": "Egg Fried Rice(v)",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "index.html",
+              "widget": "5aa631a"
+            },
+            {
+              "page": "menu/index.html",
+              "widget": "d1bced0"
+            }
+          ]
+        },
+        {
+          "name": "Chicken Fried Rice",
+          "price": 11.95,
+          "locations": [
+            {
+              "page": "index.html",
+              "widget": "6d13541"
+            },
+            {
+              "page": "menu/index.html",
+              "widget": "70381a6"
+            }
+          ]
+        },
+        {
+          "name": "Beef Fried Rice",
+          "price": 12.95,
+          "locations": [
+            {
+              "page": "index.html",
+              "widget": "6e9469e"
+            },
+            {
+              "page": "menu/index.html",
+              "widget": "05a9ecc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Curries",
+      "items": [
+        {
+          "name": "Mixed Vegetable Curry (vg) (gf)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "3e7e29d1"
+            }
+          ]
+        },
+        {
+          "name": "Annasi Maaluwa (vg)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "e6cd52d9"
+            }
+          ]
+        },
+        {
+          "name": "Dhal Curry(v)",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "1dfc87f4"
+            }
+          ]
+        },
+        {
+          "name": "Kaju Maaluwa (vg)",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "268c9f8b"
+            }
+          ]
+        },
+        {
+          "name": "Polos Curry (Baby jackfruit curry) (v)",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "f6f741d"
+            }
+          ]
+        },
+        {
+          "name": "Chicken Curry",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "5d19cca6"
+            }
+          ]
+        },
+        {
+          "name": "Salmon Curry",
+          "price": 11.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "5d9c43c2"
+            }
+          ]
+        },
+        {
+          "name": "Lamb Curry",
+          "price": 11.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "7ee380b3"
+            }
+          ]
+        },
+        {
+          "name": "Prawn Curry",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "b1fba6e"
+            }
+          ]
+        },
+        {
+          "name": "Black Pork Curry",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "fb4ba7b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Japanese Curry",
+      "items": [
+        {
+          "name": "Chicken",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "f678f80"
+            }
+          ]
+        },
+        {
+          "name": "Pork",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "d64be86"
+            }
+          ]
+        },
+        {
+          "name": "Prawns",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "2189b4a"
+            }
+          ]
+        },
+        {
+          "name": "Vegetable(vg",
+          "price": 11.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "cc58f36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Devils",
+      "items": [
+        {
+          "name": "Chicken Devil",
+          "price": 12.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "763f915"
+            }
+          ]
+        },
+        {
+          "name": "Beef Devil",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "339c74fa"
+            }
+          ]
+        },
+        {
+          "name": "Pork Devil",
+          "price": 12.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "7cb1adad"
+            }
+          ]
+        },
+        {
+          "name": "Prawn Devil",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "68ba2b16"
+            }
+          ]
+        },
+        {
+          "name": "Mix Devil (mix)",
+          "price": 16.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "598b54e3"
+            }
+          ]
+        },
+        {
+          "name": "Vegetable Devil (v)",
+          "price": 11.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "55f72a13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crab Specials",
+      "items": [
+        {
+          "name": "Salt & Pepper Crab",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "bd66ac2"
+            }
+          ]
+        },
+        {
+          "name": "Garlic & Chilli Crab",
+          "price": 15.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "7e4b6de"
+            }
+          ]
+        },
+        {
+          "name": "Crab Curry",
+          "price": 16.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "cbc074d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kottu",
+      "items": [
+        {
+          "name": "Chicken kottu",
+          "price": 12.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "3dfd038"
+            }
+          ]
+        },
+        {
+          "name": "Mutton kottu",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "17d475b"
+            }
+          ]
+        },
+        {
+          "name": "Veggie kottu(v)",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "2b68637"
+            }
+          ]
+        },
+        {
+          "name": "Seafood kottu",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "6dd59b8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Cocounut Sambol",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "a604ee2"
+            }
+          ]
+        },
+        {
+          "name": "Paratha Roti(2pcs)",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "ba7db28"
+            }
+          ]
+        },
+        {
+          "name": "Papadoms(vg) 3pcs",
+          "price": 3.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "6a3451f"
+            }
+          ]
+        },
+        {
+          "name": "Chips",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "6386b11"
+            }
+          ]
+        },
+        {
+          "name": "Garlic Mushrooms(v)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "17dcfab"
+            }
+          ]
+        },
+        {
+          "name": "Plain Noodles(v",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "0bbd344"
+            }
+          ]
+        },
+        {
+          "name": "Asparagus(v)",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "2cbee71"
+            }
+          ]
+        },
+        {
+          "name": "Japanese Sticky Rice(vg)",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "01fdb68"
+            }
+          ]
+        },
+        {
+          "name": "Long Grain Rice(vg)",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "25cee84"
+            }
+          ]
+        },
+        {
+          "name": "Mushroom Panko-Age(v)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "87b7c47"
+            }
+          ]
+        },
+        {
+          "name": "Spicy Cauliflower (vg)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "212b926"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kids Menu",
+      "items": [
+        {
+          "name": "Mini Chicken Katsu with Curry Sauce",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "99e7dcd"
+            }
+          ]
+        },
+        {
+          "name": ". Mini Yasai Yaki Soba",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "422110b"
+            }
+          ]
+        },
+        {
+          "name": "Chicken Fried Rice",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "77ba476"
+            }
+          ]
+        },
+        {
+          "name": "Chicken Nuggets and Chips",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "51e0122"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Carrot Cake(vg)",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "7e8f385"
+            }
+          ]
+        },
+        {
+          "name": "Mochi",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "48b445a"
+            }
+          ]
+        },
+        {
+          "name": "Chocolate Fudge Cake(v)",
+          "price": 5.9,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "2b2f709"
+            }
+          ]
+        },
+        {
+          "name": "Banana Tempura (v)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "7331638"
+            }
+          ]
+        },
+        {
+          "name": "Ice Cream(v)",
+          "price": 5.75,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "f28e29a"
+            }
+          ]
+        },
+        {
+          "name": "Ice Cream Tempura (v)",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "5fb4f79"
+            }
+          ]
+        },
+        {
+          "name": "Wattalapam(v)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "cc65f60"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tempura",
+      "items": [
+        {
+          "name": "Ebi tempura-prawns",
+          "price": 11.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "e42b49a"
+            }
+          ]
+        },
+        {
+          "name": "Yasai (vg) assorted vegetables",
+          "price": 9.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "c2d9701"
+            }
+          ]
+        },
+        {
+          "name": "IKA tempura-calamari.",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "56a4ca7"
+            }
+          ]
+        },
+        {
+          "name": "Kani tempura soft shell crab",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "310fda6"
+            }
+          ]
+        },
+        {
+          "name": "Mixed seafood tempura £11.95 assorted seafood",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "f095651"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seafood",
+      "items": [
+        {
+          "name": "SQUID-Ika",
+          "price": 16.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "8e23370"
+            }
+          ]
+        },
+        {
+          "name": "Salmon-sake",
+          "price": 19.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "3935766"
+            }
+          ]
+        },
+        {
+          "name": "Sea Bass-Suzuki",
+          "price": 19.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "509be4b"
+            }
+          ]
+        },
+        {
+          "name": "Prawns-EBI",
+          "price": 18.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "12226c0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Meats",
+      "items": [
+        {
+          "name": "T Bone Steak",
+          "price": 25.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "77068ac"
+            }
+          ]
+        },
+        {
+          "name": "Chicken Fillet",
+          "price": 19.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "7342419"
+            }
+          ]
+        },
+        {
+          "name": "Fillet Beef",
+          "price": 25.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "5f6c833"
+            }
+          ]
+        },
+        {
+          "name": "Rib eye Steak",
+          "price": 24.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "7a28384"
+            }
+          ]
+        },
+        {
+          "name": "Rump of Lamb",
+          "price": 21.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "4eabf77"
+            }
+          ]
+        },
+        {
+          "name": "Breast of Duck",
+          "price": 22.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "4abdf85"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Donburi",
+      "items": [
+        {
+          "name": "Pork Katsu-Don",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "ad70da3"
+            }
+          ]
+        },
+        {
+          "name": "Chicken Katsu-Don",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "394c6df"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teppanyaki",
+      "items": [
+        {
+          "name": "Vegetable Noodles(vg)",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "c4323eb"
+            }
+          ]
+        },
+        {
+          "name": "Chicken Noodles",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "a30e45d"
+            }
+          ]
+        },
+        {
+          "name": "Seafood Noodles",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "adfc0fc"
+            }
+          ]
+        },
+        {
+          "name": "Beef Noodles",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "feac2a8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lion Sushi",
+      "items": [
+        {
+          "name": "Dragon Roll (8pcs)",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "252bed6"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "890a900"
+            }
+          ]
+        },
+        {
+          "name": "Rainbow roll (8pcs)",
+          "price": 15.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "3553773"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "058365e"
+            }
+          ]
+        },
+        {
+          "name": "Crazy Salmon Roll",
+          "price": 16.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "d714cbd"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "5a0ae08"
+            }
+          ]
+        },
+        {
+          "name": "Spider roll (6pcs)",
+          "price": 13.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "c1c8ed3"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "9db0cb8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temaki",
+      "items": [
+        {
+          "name": "California Temaki",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "8301c1a"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "d0dcbc5"
+            }
+          ]
+        },
+        {
+          "name": "Spicy Tuna Temaki",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "2a45afd"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "ca15826"
+            }
+          ]
+        },
+        {
+          "name": "Salmon and avocado temaki",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "913f09c"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "ee953ca"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Platters",
+      "items": [
+        {
+          "name": "Medium Platter (Sushi 6pcs / Maki 8pcs / Sashimi 6pcs)",
+          "price": 39.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "e2cb895"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "c74da2f"
+            }
+          ]
+        },
+        {
+          "name": "Large Platter (Sashimi 15pcs / Sushi 8pcs / Maki 24pcs)",
+          "price": 64.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "1eeb267"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "b59087a"
+            }
+          ]
+        },
+        {
+          "name": "MAGURO SAKE (10pcs)",
+          "price": 14.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "0022ae7"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "f279244"
+            }
+          ]
+        },
+        {
+          "name": "EBI - PRAWN Sushi (2pcs)",
+          "price": 4.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "ac6db61b"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "abf5cfb"
+            }
+          ]
+        },
+        {
+          "name": "IKA - SQUID Sushi (2pcs)",
+          "price": 4.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "d8f863e"
+            }
+          ]
+        },
+        {
+          "name": "SABA - MACKEREL Sushi (2pcs)",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "f525ae8"
+            }
+          ]
+        },
+        {
+          "name": "SABA - MACKEREL Sashimi(5pcs)",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "1a76a62"
+            }
+          ]
+        },
+        {
+          "name": "SAKE - SALMON Sushi (2pcs)",
+          "price": 5.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "c83beb9"
+            }
+          ]
+        },
+        {
+          "name": "SAKE - SALMON Sashimi (5pcs)",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "dc6ba6c"
+            }
+          ]
+        },
+        {
+          "name": "MAGURO- TUNA Sushi (2pcs)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "b40d367"
+            }
+          ]
+        },
+        {
+          "name": "MAGURO- TUNA Sashimi (5pcs)",
+          "price": 9.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "08a4252"
+            }
+          ]
+        },
+        {
+          "name": "UNAGI- EEL Sushi (2pcs)",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "9a7098c"
+            }
+          ]
+        },
+        {
+          "name": "UNAGI- EEL Sashimi (5pcs)",
+          "price": 8.95,
+          "locations": [
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "5b8f5e8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maki",
+      "items": [
+        {
+          "name": "Kappa Maki(v) cucumber roll",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "c32ad60"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "793f9c2"
+            }
+          ]
+        },
+        {
+          "name": "Avocado Maki (v)",
+          "price": 7.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "d242387"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "7afe364"
+            }
+          ]
+        },
+        {
+          "name": "California Maki (8pcs)",
+          "price": 9.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "159f72b"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "e7bd476"
+            }
+          ]
+        },
+        {
+          "name": "Tori Age Maki (8pcs)",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "3a839c8"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "8cfa9ad"
+            }
+          ]
+        },
+        {
+          "name": "Salmon Avocado Maki (8pcs)",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "c7a42fb"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "57c5048"
+            }
+          ]
+        },
+        {
+          "name": "Ebi California Maki (8pcs)",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "fad8cc0"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "5476013"
+            }
+          ]
+        },
+        {
+          "name": "Spicy Tuna Maki (8pcs)",
+          "price": 12.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "da4147a"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "e6e5808"
+            }
+          ]
+        },
+        {
+          "name": "Ebi Tempura Maki (8pcs)",
+          "price": 10.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "2656c5e"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "32d68e3"
+            }
+          ]
+        },
+        {
+          "name": "Dynamite Maki (8pcs)",
+          "price": 12.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "cbb1078"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "1899d1c"
+            }
+          ]
+        },
+        {
+          "name": "Spicy Beef maki (8pcs )",
+          "price": 11.95,
+          "locations": [
+            {
+              "page": "menu/index.html",
+              "widget": "1e6f823"
+            },
+            {
+              "page": "sushi-menu/index.html",
+              "widget": "a194a24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ciders",
+      "items": [
+        {
+          "name": "Old Mout Kiwi & Lime",
+          "price": 5.5,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "67d09948"
+            }
+          ]
+        },
+        {
+          "name": "Berries & Cherries",
+          "price": 5.5,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "1f7bdb8c"
+            }
+          ]
+        },
+        {
+          "name": "Pineapple & Raspberry",
+          "price": 5.5,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "3b5a30f"
+            }
+          ]
+        },
+        {
+          "name": "Strawberry & Apple",
+          "price": 5.5,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "ddba05a"
+            }
+          ]
+        },
+        {
+          "name": "Watermelon & Lime",
+          "price": 5.5,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "ebb958a"
+            }
+          ]
+        },
+        {
+          "name": "Non Alcoholic Pineapple & Raspberry",
+          "price": 5.5,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "45a8fc2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beers",
+      "items": [
+        {
+          "name": "Lion Lager Btl",
+          "price": 6.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "fd69c8e"
+            }
+          ]
+        },
+        {
+          "name": "Lion Stout Btl",
+          "price": 7.1,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "47cef9a"
+            }
+          ]
+        },
+        {
+          "name": "Cobra Half",
+          "price": 3.2,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "c4721ff"
+            }
+          ]
+        },
+        {
+          "name": "Cobra Pint",
+          "price": 5.2,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "f0e56d0"
+            }
+          ]
+        },
+        {
+          "name": "Asahi Half",
+          "price": 3.4,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "f9c74c3"
+            }
+          ]
+        },
+        {
+          "name": "Asahi Pint",
+          "price": 5.3,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "ce9305a"
+            }
+          ]
+        },
+        {
+          "name": "Peroni Half",
+          "price": 3.2,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "22e2048"
+            }
+          ]
+        },
+        {
+          "name": "Peroni Pint",
+          "price": 5.3,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "ad088f7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soft Drinks",
+      "items": [
+        {
+          "name": "Coke / Diet Coke",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "92aa669"
+            }
+          ]
+        },
+        {
+          "name": "Lemonade",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "a89b28e"
+            }
+          ]
+        },
+        {
+          "name": "Sprite / Fanta",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "2a2d871"
+            }
+          ]
+        },
+        {
+          "name": "Still / Sparkling Water 500ml",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "ec76904"
+            }
+          ]
+        },
+        {
+          "name": "J20 3 Flavours",
+          "price": 3.2,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "0b321ab"
+            }
+          ]
+        },
+        {
+          "name": "Apple Juice",
+          "price": 3.2,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "39dd828"
+            }
+          ]
+        },
+        {
+          "name": "Orange Juice",
+          "price": 3.2,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "698f980"
+            }
+          ]
+        },
+        {
+          "name": "Pineapple Juice",
+          "price": 3.2,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "9221bc0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hot Drinks",
+      "items": [
+        {
+          "name": "Ristretto (Espresso Small)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "a9e6369"
+            }
+          ]
+        },
+        {
+          "name": "Espresso Dopplo(Large)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "8bdb067"
+            }
+          ]
+        },
+        {
+          "name": "Espresso Macchiato",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "3be4fd8"
+            }
+          ]
+        },
+        {
+          "name": "Verlangerter (Strong Espresso)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "7a003d4"
+            }
+          ]
+        },
+        {
+          "name": "Kleiner Brauner (Espresso With Shot Of Warm Milk)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "d215d5b"
+            }
+          ]
+        },
+        {
+          "name": "Wiener Melange (Strong Espresso With Frothed Milk)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "21d1213"
+            }
+          ]
+        },
+        {
+          "name": "Flat White (Strong Cappuccino)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "f2baf03"
+            }
+          ]
+        },
+        {
+          "name": "Café Con Leche (White Coffee Half Espresso Half Milk)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "37a4455"
+            }
+          ]
+        },
+        {
+          "name": "Café Au Lait (large latte)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "0634edd"
+            }
+          ]
+        },
+        {
+          "name": "Koffie Verkeerd (large White Milky Coffee)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "661c4e4"
+            }
+          ]
+        },
+        {
+          "name": "Americano (Espresso With Hot Water)",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "7ee8d66"
+            }
+          ]
+        },
+        {
+          "name": "Ceylon Tea",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "416004e"
+            }
+          ]
+        },
+        {
+          "name": "Green Tea",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "6fd5b55"
+            }
+          ]
+        },
+        {
+          "name": "English Tea",
+          "price": 2.95,
+          "locations": [
+            {
+              "page": "drinks-menu/index.html",
+              "widget": "88b3e42"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

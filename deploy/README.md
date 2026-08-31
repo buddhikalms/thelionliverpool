@@ -4,10 +4,19 @@ Target: `root@148.251.166.216`, served from `/var/www/thelionliverpool-website`.
 The `online.thelionliverpool.co.uk` Next.js app already runs on this box — do not
 disturb its vhost.
 
+## 0. If any menu price changed
+
+Prices live in `menu-data/menu-prices.json`, not in the HTML. Edit that file,
+then write the prices into the pages before uploading:
+
+    python menu-data/sync-prices.py
+
+See `menu-data/README.md`. Skipping this means the JSON and the pages disagree.
+
 ## 1. Upload (DNS still pointing at the old WordPress server)
 
     rsync -avz --delete \
-      --exclude '.git' --exclude 'deploy' \
+      --exclude '.git' --exclude 'deploy' --exclude 'menu-data' \
       ./ root@148.251.166.216:/var/www/thelionliverpool-website/
 
 ## 2. Install the vhost
