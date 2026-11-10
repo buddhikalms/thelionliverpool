@@ -1,8 +1,8 @@
 # The Lion Restaurant Liverpool
 
-> A Sri Lankan and Japanese restaurant in Liverpool, UK. The site covers the food (three menus with prices), the story behind the restaurant, and a blog about both cuisines. Ordering and table booking are handled on a separate site.
+> A Sri Lankan and Japanese restaurant in Liverpool, UK. The site covers the food (three menus with prices), the story behind the restaurant, and a blog about both cuisines. Tables are requested through a reservation form on this site; online ordering is handled on a separate site.
 
-Online ordering and reservations are not on this domain. Both live at https://online.thelionliverpool.co.uk - ordering at the root, booking at /book.
+Online ordering is not on this domain: it lives at https://online.thelionliverpool.co.uk. Table reservations are requested on this site at https://www.thelionliverpool.co.uk/reservation/.
 
 ## Menus
 
@@ -19,7 +19,7 @@ Online ordering and reservations are not on this domain. Both live at https://on
 ## Ordering and booking
 
 - [Order Online](https://online.thelionliverpool.co.uk/): Takeaway and delivery ordering.
-- [Book a Table](https://online.thelionliverpool.co.uk/book): Table reservations.
+- [Reservation](https://www.thelionliverpool.co.uk/reservation/): Table reservation requests - date, time and party size - confirmed by the restaurant.
 
 ## Blog
 

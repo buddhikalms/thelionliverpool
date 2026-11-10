@@ -37,8 +37,11 @@ The Host header makes nginx pick the vhost without any DNS change:
     curl -I -H "Host: www.thelionliverpool.co.uk" http://148.251.166.216/menu/
     curl -I -H "Host: www.thelionliverpool.co.uk" http://148.251.166.216/menus/
     curl -I -H "Host: www.thelionliverpool.co.uk" http://148.251.166.216/product/bacardi/
+    curl -I -H "Host: www.thelionliverpool.co.uk" http://148.251.166.216/reservation/
 
-Expect: 200, 200, 301 -> /menu/, 301 -> /drinks-menu/.
+Expect: 200, 200, 301 -> /menu/, 301 -> /drinks-menu/, 200. A 301 on
+/reservation/ means the old vhost is still loaded: it redirected that page to
+the ordering app.
 
 Confirm the ordering app still answers:
 
